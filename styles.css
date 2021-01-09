@@ -1,7 +1,27 @@
-header {
-    background-color: antiquewhite;
+* {
+    margin: 0;
 }
-
+/* Header section */
+header {
+    background-color: #fff;
+}
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #026873
+}
+/* Main section */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+main p {
+    background-color: #DCE8FA;
+}
+.siteslist li {
+    list-style-type: none;
+}
+/* Footer section */
 footer {
-    background-color: antiquewhite;
+    background-color: #fff;
 }
